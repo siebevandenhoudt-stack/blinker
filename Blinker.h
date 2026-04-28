@@ -10,7 +10,7 @@ class Blinker {
     unsigned int _ledPin;
   public:
     //constructor
-    Blinker(unsigned int ledPin, unsigned long blinkInterval);
+    Blinker(unsigned int ledPin, unsigned long blinkInterval, const long startDelay = 0);
     //destructor
     ~Blinker();
 
