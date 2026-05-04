@@ -1,4 +1,4 @@
-#indef BLINKER_H
+#ifndef BLINKER_H
     #define BLINKER_H
 
     //klassedefinitie
